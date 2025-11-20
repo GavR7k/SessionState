@@ -1,0 +1,13 @@
+﻿@using SessionState.Models
+@model Person
+
+<!DOCKTYPE html>
+<html>
+    <head>
+        <title>@ViewData["Message"]</title>
+    </head>
+    <body>
+        <h1>Имя: @Model?.Name</h1>
+        <h1>Возраст: @Model?.Age</h1>
+    </body>
+</html>
